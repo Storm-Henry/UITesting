@@ -1,5 +1,25 @@
 #draggable { 
-	width: 150px; 
-	height: 150px; 
-	padding: 0.5em; 
+	width: 15px; 
+	height: 15px; 
 	}
+
+#container{
+	height: 400px;
+	width: 400px;
+}
+
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+}
+
+.background{
+	background-color:#269;
+	background-image: linear-gradient(white 0px, transparent 0px),
+	linear-gradient(90deg, white 0px, transparent 0px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 25px 25px, 25px 25px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
